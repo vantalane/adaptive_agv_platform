@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "d9c05f42-b09d-495b-a2b7-7797dde42b85")
+	(paper "A4")
+	(title_block
+		(title "Fontys adaptive robotics AGV platform.")
+		(date "2025-03-01")
+		(rev "V1.0")
+		(company "Kestech")
+		(comment 1 "MIT License. Copyright (c) 2025 Kestech Fontys")
+	)
+	(lib_symbols)
+)
