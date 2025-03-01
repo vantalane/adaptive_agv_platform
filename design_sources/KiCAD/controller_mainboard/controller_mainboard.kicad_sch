@@ -851,6 +851,168 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:L"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "L"
+				(at 1.905 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Inductor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "inductor choke coil reactor magnetic"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "L_0_1"
+				(arc
+					(start 0 2.54)
+					(mid 0.6323 1.905)
+					(end 0 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 1.27)
+					(mid 0.6323 0.635)
+					(end 0 0)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0)
+					(mid 0.6323 -0.635)
+					(end 0 -1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -1.27)
+					(mid 0.6323 -1.905)
+					(end 0 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "L_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text "Wanted specifications by Fontys:\n\n- May be powered by a 3S XT-90 LiPO cell.\n- Raspberry PI or Arduino MEGA IC controllable.\n- IO for interfacing with external parts.\n- USB C\n\nMy feature additions:\n\n- Emergency stop button headers.\n- Motor driver socketable options\n- ESD protection\n- Analog v-div for supply voltage.\n- ICSP headers, so that arduino bootloader can be flashed\n- debug LEDS"
 		(exclude_from_sim no)
@@ -895,6 +1057,184 @@
 			(justify left top)
 		)
 		(uuid "b1924e90-0e6a-4e95-af2d-df2b8c49213f")
+	)
+	(text "22R resistors and MAKE THIS DIFFERENTIAL\n"
+		(exclude_from_sim no)
+		(at 59.436 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "e7c76e11-f259-44b0-8f99-89e6d738b0d0")
+	)
+	(wire
+		(pts
+			(xy 45.72 142.24) (xy 45.72 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0815bc3d-6638-45c0-96c8-42b276f68243")
+	)
+	(wire
+		(pts
+			(xy 45.72 144.78) (xy 43.18 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33ebebd8-5199-4109-a927-1bc5a96d9dd4")
+	)
+	(wire
+		(pts
+			(xy 43.18 124.46) (xy 57.15 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51dddcf4-12d4-47b4-90e7-0358ab4e9448")
+	)
+	(wire
+		(pts
+			(xy 20.32 173.99) (xy 21.59 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69a952b1-9d58-4180-82db-9842ca22eb30")
+	)
+	(wire
+		(pts
+			(xy 45.72 139.7) (xy 45.72 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77e233b2-46d4-4c60-af43-e5a7b9f7e392")
+	)
+	(wire
+		(pts
+			(xy 20.32 162.56) (xy 20.32 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e68757-6773-464c-acb3-84992d91876a")
+	)
+	(wire
+		(pts
+			(xy 45.72 137.16) (xy 43.18 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ab50f6-a979-4f9f-86b1-6a645552e2e0")
+	)
+	(wire
+		(pts
+			(xy 43.18 142.24) (xy 45.72 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dec26f87-662e-4165-a7de-45d285037281")
+	)
+	(wire
+		(pts
+			(xy 43.18 139.7) (xy 45.72 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f20daf72-7891-4e67-9b19-f4b190723034")
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 25.4 173.99 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a3def465-9e27-457f-9e5a-393ecdd45b59")
+		(property "Reference" "L4"
+			(at 25.4 168.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "5A 1uH"
+			(at 25.4 171.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Inductor"
+			(at 25.4 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C167953"
+			(at 25.4 173.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c53a865-0c91-4da7-b6e0-201ec15420a9")
+		)
+		(pin "2"
+			(uuid "23df541c-9c26-43bf-9c48-49669acee0c5")
+		)
+		(instances
+			(project "controller_mainboard"
+				(path "/0fdfffec-3d24-4249-8ba9-dae7a6ccc250"
+					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
@@ -1244,7 +1584,7 @@
 		)
 	)
 	(sheet
-		(at 73.66 95.25)
+		(at 76.2 127)
 		(size 33.02 35.56)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1260,7 +1600,7 @@
 		)
 		(uuid "56a5a4f6-b055-4ffd-8e95-057054573d13")
 		(property "Sheetname" "ATmega16u2"
-			(at 73.66 94.5384 0)
+			(at 76.2 126.2884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1269,7 +1609,7 @@
 			)
 		)
 		(property "Sheetfile" "atmega16u2_schematic.kicad_sch"
-			(at 73.66 131.3946 0)
+			(at 76.2 163.1446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1278,7 +1618,7 @@
 			)
 		)
 		(pin "PE0" output
-			(at 106.68 111.76 0)
+			(at 109.22 143.51 0)
 			(uuid "89997093-1253-467e-9d79-d05e56189134")
 			(effects
 				(font
@@ -1288,7 +1628,7 @@
 			)
 		)
 		(pin "PE1" output
-			(at 106.68 114.3 0)
+			(at 109.22 146.05 0)
 			(uuid "ef0a3fad-fabd-4645-a5ec-d8c9097dcae7")
 			(effects
 				(font
@@ -1298,7 +1638,7 @@
 			)
 		)
 		(pin "RESET_CPL" input
-			(at 106.68 125.73 0)
+			(at 109.22 157.48 0)
 			(uuid "4b16076f-4f06-465e-aafa-4247f28166ed")
 			(effects
 				(font
@@ -1308,7 +1648,7 @@
 			)
 		)
 		(pin "usb_d+" input
-			(at 73.66 114.3 180)
+			(at 76.2 146.05 180)
 			(uuid "24cf6d50-5b4b-46b3-a10a-a7fdea80be9d")
 			(effects
 				(font
@@ -1318,7 +1658,7 @@
 			)
 		)
 		(pin "usb_d-" input
-			(at 73.66 116.84 180)
+			(at 76.2 148.59 180)
 			(uuid "3839949a-92f2-416a-b901-defb1164b071")
 			(effects
 				(font
@@ -1328,7 +1668,7 @@
 			)
 		)
 		(pin "usb_GND" passive
-			(at 73.66 119.38 180)
+			(at 76.2 151.13 180)
 			(uuid "b791d36e-4df8-4d85-a730-290877197a8b")
 			(effects
 				(font
@@ -1338,7 +1678,7 @@
 			)
 		)
 		(pin "usb_VCC" input
-			(at 73.66 111.76 180)
+			(at 76.2 143.51 180)
 			(uuid "d3dd66d6-f096-4db0-9997-fe7e58af60a7")
 			(effects
 				(font
