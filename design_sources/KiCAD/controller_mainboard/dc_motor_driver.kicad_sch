@@ -8,8 +8,8 @@
 		(title "Fontys adaptive robotics AGV platform.")
 		(date "2025-03-01")
 		(rev "V1.0")
-		(company "Kestech")
-		(comment 1 "MIT License. Copyright (c) 2025 Kestech Fontys")
+		(company "Mete Han Keskin")
+		(comment 1 "MIT License. Copyright (c) 2025 kestech.net")
 	)
 	(lib_symbols
 		(symbol "Amplifier_Current:INA180A1"
