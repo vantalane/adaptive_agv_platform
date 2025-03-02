@@ -245,7 +245,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "Custom_feetprint"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
@@ -271,6 +273,12 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "USB_differential",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -325,6 +333,12 @@
         },
         {
           "group_by": true,
+          "label": "JLCPCB",
+          "name": "JLCPCB",
+          "show": true
+        },
+        {
+          "group_by": true,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -358,12 +372,36 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -421,12 +459,28 @@
       "ATmega16u2"
     ],
     [
-      "27c4b853-faea-4fb5-bab8-3e83b7f55e4b",
-      "Motor driver"
+      "56322999-6118-4504-bd7b-d2fe1c7b6c41",
+      "Motor driver 1"
     ],
     [
       "85a1f9d6-c5ad-4fcd-ae77-3439b142a47a",
       "Motor back EMF arrestor"
+    ],
+    [
+      "f942a5b5-54c0-4fcc-a043-1f1cc07d1d6d",
+      "5V_3A_buck_converter"
+    ],
+    [
+      "1deb2dd2-283d-4169-ad33-607728a60d69",
+      "Motor driver 2"
+    ],
+    [
+      "e8e2327b-f44d-4f82-b8a8-ef0d57e7cfbb",
+      "Motor driver 3"
+    ],
+    [
+      "e98f7139-2f45-4c57-9c70-b335f64c5f62",
+      "Motor driver 4"
     ]
   ],
   "text_variables": {}
