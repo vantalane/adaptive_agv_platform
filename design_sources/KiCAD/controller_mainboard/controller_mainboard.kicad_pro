@@ -675,10 +675,6 @@
       "Motor driver 1"
     ],
     [
-      "85a1f9d6-c5ad-4fcd-ae77-3439b142a47a",
-      "Motor back EMF arrestor"
-    ],
-    [
       "f942a5b5-54c0-4fcc-a043-1f1cc07d1d6d",
       "5V_3A_buck_converter"
     ],

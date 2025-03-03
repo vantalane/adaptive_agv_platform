@@ -3606,6 +3606,12 @@
 		(uuid "48559422-23e5-4500-94ff-975e837fa071")
 	)
 	(junction
+		(at 238.76 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4c7db17e-72a4-4448-b3c8-c1aba8b49847")
+	)
+	(junction
 		(at 123.19 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3616,6 +3622,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5523077a-2b4b-4c20-b803-167b76fcf438")
+	)
+	(junction
+		(at 231.14 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5cce3db1-dc43-4422-905d-70e7232053c2")
 	)
 	(junction
 		(at 133.35 77.47)
@@ -3694,6 +3706,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc41fa4c-0e28-4a18-a20c-18f72c3771d5")
+	)
+	(junction
+		(at 234.95 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e28974a7-3c36-44d0-bd97-2d02e9fb7e35")
 	)
 	(junction
 		(at 109.22 72.39)
@@ -3886,6 +3904,16 @@
 			(type default)
 		)
 		(uuid "09b6527c-113f-4c14-ba00-f2a29eb5eb2b")
+	)
+	(wire
+		(pts
+			(xy 231.14 135.89) (xy 195.58 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09fc303c-5641-4e67-b0ce-869c627d9a6a")
 	)
 	(wire
 		(pts
@@ -4229,6 +4257,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 125.73) (xy 238.76 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4935690a-64c1-4d02-bbf0-c5cb06c5aff0")
+	)
+	(wire
+		(pts
 			(xy 123.19 77.47) (xy 123.19 76.2)
 		)
 		(stroke
@@ -4246,6 +4284,16 @@
 			(type default)
 		)
 		(uuid "4b6325f1-ed3e-4a9d-a67f-9e6eb4f8befb")
+	)
+	(wire
+		(pts
+			(xy 238.76 133.35) (xy 247.65 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d5b8734-d95b-44fc-ba00-27f03a099372")
 	)
 	(wire
 		(pts
@@ -4329,7 +4377,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 135.89) (xy 195.58 135.89)
+			(xy 247.65 135.89) (xy 231.14 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4399,13 +4447,13 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 133.35) (xy 195.58 133.35)
+			(xy 234.95 110.49) (xy 234.95 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65236270-ad66-40ad-9750-36affdd4aadc")
+		(uuid "657b0337-2888-4662-80b9-3617ace2e8cb")
 	)
 	(wire
 		(pts
@@ -4649,6 +4697,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 116.84) (xy 238.76 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "812001f1-84a8-4cf2-90fb-657c1c7bc406")
+	)
+	(wire
+		(pts
 			(xy 149.86 115.57) (xy 154.94 115.57)
 		)
 		(stroke
@@ -4736,6 +4794,16 @@
 			(type default)
 		)
 		(uuid "8bc47e78-d951-411b-8f46-0da25e29d554")
+	)
+	(wire
+		(pts
+			(xy 231.14 125.73) (xy 231.14 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f5cf221-1325-4556-813b-008e59b2b905")
 	)
 	(wire
 		(pts
@@ -4839,6 +4907,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 116.84) (xy 238.76 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d1cde6f-5129-488e-b9d8-ed1ab7ac23f2")
+	)
+	(wire
+		(pts
 			(xy 166.37 31.75) (xy 166.37 38.1)
 		)
 		(stroke
@@ -4886,6 +4964,16 @@
 			(type default)
 		)
 		(uuid "a1d67662-2a5f-4aec-a713-ac9fc254a875")
+	)
+	(wire
+		(pts
+			(xy 231.14 116.84) (xy 231.14 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d2d56f-d82e-4d7a-9617-b2c2a541786f")
 	)
 	(wire
 		(pts
@@ -4946,6 +5034,16 @@
 			(type default)
 		)
 		(uuid "acf81696-003a-4510-8b30-16b3e30f0016")
+	)
+	(wire
+		(pts
+			(xy 231.14 116.84) (xy 234.95 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae2ce00b-b595-4626-8ba6-72ada45be9d9")
 	)
 	(wire
 		(pts
@@ -5036,6 +5134,16 @@
 			(type default)
 		)
 		(uuid "c4f7aef7-c518-4116-8517-ab83a9ac2a41")
+	)
+	(wire
+		(pts
+			(xy 238.76 133.35) (xy 195.58 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7c65398-461d-4b10-8f58-bda01e34cafb")
 	)
 	(wire
 		(pts
@@ -5590,7 +5698,7 @@
 	)
 	(hierarchical_label "PD1{slash}D20{slash}SDA"
 		(shape bidirectional)
-		(at 200.66 135.89 0)
+		(at 247.65 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5810,7 +5918,7 @@
 	)
 	(hierarchical_label "PD0{slash}D21{slash}SCL"
 		(shape bidirectional)
-		(at 200.66 133.35 0)
+		(at 247.65 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6566,6 +6674,84 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 238.76 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "35f4eed5-4ee4-4f5a-97f7-e3ba0afa9c0a")
+		(property "Reference" "R91"
+			(at 241.3 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k 63mW"
+			(at 241.3 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 240.538 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
+			(at 238.76 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 238.76 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25744"
+			(at 238.76 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f2fbae17-3c2c-4d40-96b6-56dbf53f76d2")
+		)
+		(pin "2"
+			(uuid "9564022a-8891-4e48-9794-635e28e65989")
+		)
+		(instances
+			(project "controller_mainboard"
+				(path "/0fdfffec-3d24-4249-8ba9-dae7a6ccc250/104cadd7-dded-4cf0-b82f-f956a8bd9cde"
+					(reference "R91")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 133.35 72.39 0)
 		(mirror x)
 		(unit 1)
@@ -7077,6 +7263,72 @@
 			(project "controller_mainboard"
 				(path "/0fdfffec-3d24-4249-8ba9-dae7a6ccc250/104cadd7-dded-4cf0-b82f-f956a8bd9cde"
 					(reference "J16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 234.95 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fc0fad3-0205-4770-a492-f79c9c5959ae")
+		(property "Reference" "#PWR0131"
+			(at 234.95 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 234.95 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 234.95 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3e59a4e2-3a45-4377-9417-d437e3b21e6a")
+		)
+		(instances
+			(project "controller_mainboard"
+				(path "/0fdfffec-3d24-4249-8ba9-dae7a6ccc250/104cadd7-dded-4cf0-b82f-f956a8bd9cde"
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -7911,6 +8163,85 @@
 			(project ""
 				(path "/0fdfffec-3d24-4249-8ba9-dae7a6ccc250/104cadd7-dded-4cf0-b82f-f956a8bd9cde"
 					(reference "#PWR046")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 231.14 121.92 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3f0a6bd-b41c-4f16-b896-7548f12fe5f8")
+		(property "Reference" "R90"
+			(at 228.6 120.6499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "10k 63mW"
+			(at 228.6 123.1899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 229.362 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8556212101498380288"
+			(at 231.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 231.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C25744"
+			(at 231.14 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9836e532-c3b1-4903-adcf-51c1be40ffc0")
+		)
+		(pin "2"
+			(uuid "505c43b3-c183-4ebe-8884-39c57ecf2c2e")
+		)
+		(instances
+			(project "controller_mainboard"
+				(path "/0fdfffec-3d24-4249-8ba9-dae7a6ccc250/104cadd7-dded-4cf0-b82f-f956a8bd9cde"
+					(reference "R90")
 					(unit 1)
 				)
 			)
