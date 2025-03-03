@@ -1,4 +1,4 @@
-24818328612961717
+24820069569211302
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55474,6 +55474,13 @@ XSON8
 0
 0
 0
+Custom_feetprint
+XT-90_Connector
+
+
+0
+2
+2
 Custom_feetprint
 blaupunkt_30x3.7
 
