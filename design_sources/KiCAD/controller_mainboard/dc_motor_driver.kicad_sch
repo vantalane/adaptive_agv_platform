@@ -2059,7 +2059,7 @@
 	)
 	(text "Expected: 10.2V - 12.6V\nAbsolute MAX/MIN: 8.5V - 15V"
 		(exclude_from_sim no)
-		(at 30.226 33.782 0)
+		(at 32.004 29.464 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3767,6 +3767,16 @@
 	)
 	(wire
 		(pts
+			(xy 55.88 41.91) (xy 62.23 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a249a72d-b079-4111-b2f0-1b5789d42773")
+	)
+	(wire
+		(pts
 			(xy 77.47 59.69) (xy 77.47 60.96)
 		)
 		(stroke
@@ -4047,7 +4057,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 41.91) (xy 110.49 41.91)
+			(xy 106.68 41.91) (xy 121.92 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4177,16 +4187,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 41.91) (xy 121.92 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d6b34e12-9c97-4939-9ffb-3b007e227844")
-	)
-	(wire
-		(pts
 			(xy 104.14 92.71) (xy 104.14 81.28)
 		)
 		(stroke
@@ -4267,7 +4267,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 41.91) (xy 62.23 41.91)
+			(xy 30.48 41.91) (xy 48.26 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4630,7 +4630,7 @@
 	)
 	(hierarchical_label "MOTOR_SUPPLY"
 		(shape passive)
-		(at 43.18 41.91 180)
+		(at 30.48 41.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4711,7 +4711,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220F-3_Horizontal_TabDown"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 			(at 184.15 78.105 0)
 			(effects
 				(font
@@ -5672,7 +5672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220F-3_Horizontal_TabDown"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 			(at 236.22 78.105 0)
 			(effects
 				(font
@@ -7142,7 +7142,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 114.3 41.91 90)
+		(at 52.07 41.91 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7150,7 +7150,7 @@
 		(dnp no)
 		(uuid "64dfd5db-10ac-43a5-bb1e-701a7efecb70")
 		(property "Reference" "F2"
-			(at 114.046 37.084 90)
+			(at 51.816 37.084 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7158,7 +7158,7 @@
 			)
 		)
 		(property "Value" "5A"
-			(at 114.046 39.624 90)
+			(at 51.816 39.624 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7166,7 +7166,7 @@
 			)
 		)
 		(property "Footprint" "Custom_feetprint:BLX-A fuse holder"
-			(at 114.3 43.688 90)
+			(at 52.07 43.688 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7175,7 +7175,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 41.91 0)
+			(at 52.07 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7184,7 +7184,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 114.3 41.91 0)
+			(at 52.07 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9041,7 +9041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220F-3_Horizontal_TabDown"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 			(at 236.22 103.505 0)
 			(effects
 				(font
@@ -9943,7 +9943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220F-3_Horizontal_TabDown"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 			(at 184.15 103.505 0)
 			(effects
 				(font
