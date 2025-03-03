@@ -3128,7 +3128,10 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_MEC_5E"
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -3137,7 +3140,7 @@
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "SW"
-				(at 0.635 5.715 0)
+				(at 1.27 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3145,8 +3148,8 @@
 					(justify left)
 				)
 			)
-			(property "Value" "SW_MEC_5E"
-				(at 0 -3.175 0)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3154,7 +3157,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 7.62 0)
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3162,8 +3165,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-				(at 0 7.62 0)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3171,7 +3174,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(property "Description" "Push button switch, generic, two pins"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3189,42 +3192,9 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SW*MEC*5G*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_MEC_5E_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.286 3.81) (xy 2.286 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "SW_Push_0_1"
 				(circle
-					(center -1.778 2.54)
+					(center -2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -3236,7 +3206,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.81) (xy 0 5.588)
+						(xy 0 1.27) (xy 0 3.048)
 					)
 					(stroke
 						(width 0)
@@ -3247,7 +3217,7 @@
 					)
 				)
 				(circle
-					(center 1.778 2.54)
+					(center 2.032 0)
 					(radius 0.508)
 					(stroke
 						(width 0)
@@ -3259,7 +3229,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 2.54 2.54) (xy 2.286 2.54)
+						(xy 2.54 1.27) (xy -2.54 1.27)
 					)
 					(stroke
 						(width 0)
@@ -3270,7 +3240,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
 						(effects
@@ -3288,7 +3258,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -3298,42 +3268,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 2.54 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3636,12 +3570,6 @@
 		(uuid "8406ce60-dbde-4080-b071-58bb0e729184")
 	)
 	(junction
-		(at 99.06 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "85af579b-39b5-4d1b-a3fb-280437e6a25a")
-	)
-	(junction
 		(at 232.41 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3652,12 +3580,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a535875d-92dd-4ac3-bd56-6af450a3faa3")
-	)
-	(junction
-		(at 119.38 57.15)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a94d65e0-f076-4917-af1f-ac1e23ffe5c7")
 	)
 	(junction
 		(at 133.35 67.31)
@@ -3817,7 +3739,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 57.15) (xy 99.06 59.69)
+			(xy 99.06 54.61) (xy 99.06 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4104,16 +4026,6 @@
 			(type default)
 		)
 		(uuid "2ade6a05-645a-434c-9b1e-00c502a46b16")
-	)
-	(wire
-		(pts
-			(xy 104.14 57.15) (xy 99.06 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2bb9c72e-325e-40dd-a0f1-8e0212acd509")
 	)
 	(wire
 		(pts
@@ -4807,16 +4719,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 57.15) (xy 114.3 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90e6f90f-0a30-4e1f-a6b0-a21533eb0091")
-	)
-	(wire
-		(pts
 			(xy 151.13 181.61) (xy 154.94 181.61)
 		)
 		(stroke
@@ -4934,16 +4836,6 @@
 			(type default)
 		)
 		(uuid "9ffc3778-161a-4978-99bf-12d4fe6c283b")
-	)
-	(wire
-		(pts
-			(xy 119.38 59.69) (xy 119.38 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a054112e-d5b6-4ef9-a92f-43194b400a12")
 	)
 	(wire
 		(pts
@@ -5144,16 +5036,6 @@
 			(type default)
 		)
 		(uuid "c7c65398-461d-4b10-8f58-bda01e34cafb")
-	)
-	(wire
-		(pts
-			(xy 99.06 54.61) (xy 99.06 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8b2d466-f039-48fa-9c3b-6a3e72f380e1")
 	)
 	(wire
 		(pts
@@ -5437,7 +5319,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 57.15) (xy 119.38 54.61)
+			(xy 119.38 54.61) (xy 119.38 59.69)
 		)
 		(stroke
 			(width 0)
@@ -5861,7 +5743,7 @@
 		)
 		(uuid "6b8d99ad-f98a-4cf2-98c9-6861f1fe37b0")
 	)
-	(hierarchical_label "PB0{slash}D55{slash}SS"
+	(hierarchical_label "PB0{slash}D53{slash}SS"
 		(shape bidirectional)
 		(at 200.66 87.63 0)
 		(effects
@@ -6751,6 +6633,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 109.22 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "36f49510-4496-4cf6-9085-9aa8a8002def")
+		(property "Reference" "SW1"
+			(at 109.22 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 109.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
+			(at 109.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 109.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C19191552"
+			(at 109.22 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "72efb986-0e69-4611-8bf5-f0b4bc734d5a")
+		)
+		(pin "1"
+			(uuid "ea256018-6cbb-4aff-8164-ac4a3b1a3c74")
+		)
+		(instances
+			(project ""
+				(path "/0fdfffec-3d24-4249-8ba9-dae7a6ccc250/104cadd7-dded-4cf0-b82f-f956a8bd9cde"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 133.35 72.39 0)
 		(mirror x)
@@ -7574,89 +7533,6 @@
 			(project "controller_mainboard"
 				(path "/0fdfffec-3d24-4249-8ba9-dae7a6ccc250/104cadd7-dded-4cf0-b82f-f956a8bd9cde"
 					(reference "Y1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_MEC_5E")
-		(at 109.22 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "76e44815-f839-45ac-bdce-8cadc191465d")
-		(property "Reference" "SW2"
-			(at 109.22 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_TACT"
-			(at 109.22 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_SMD:SW_MEC_5GSH9"
-			(at 109.22 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
-			(at 109.22 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "MEC 5E single pole normally-open tactile switch"
-			(at 109.22 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB" "C19191552"
-			(at 109.22 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "491b5178-1b41-4bea-b696-88dba6d629f7")
-		)
-		(pin "1"
-			(uuid "6dcb4d13-6c32-4c18-8e53-9460db2850b8")
-		)
-		(pin "4"
-			(uuid "e7cfb94f-005a-459a-820f-cf553cb2e022")
-		)
-		(pin "2"
-			(uuid "ffd7b729-a99f-4d9d-a27c-0037f84befd9")
-		)
-		(instances
-			(project ""
-				(path "/0fdfffec-3d24-4249-8ba9-dae7a6ccc250/104cadd7-dded-4cf0-b82f-f956a8bd9cde"
-					(reference "SW2")
 					(unit 1)
 				)
 			)
