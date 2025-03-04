@@ -14503,7 +14503,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b241eaf5-2f1f-4936-a681-ef63dad7a5b5")
 		(property "Reference" "J24"
 			(at 214.63 46.9901 0)
