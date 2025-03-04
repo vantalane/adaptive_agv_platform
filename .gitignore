@@ -1,3 +1,5 @@
 *.lck
-/adaptive_agv_platform/design_sources/KiCAD/controller_mainboard/controller_mainboard-backups/*
+/design_sources/KiCAD/controller_mainboard/controller_mainboard-backups/*
 *-bak
+
+
