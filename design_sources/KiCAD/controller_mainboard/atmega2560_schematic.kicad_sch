@@ -3899,6 +3899,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 43.18) (xy 248.92 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1813c7cf-63a9-449d-9a88-7acafdc40ca4")
+	)
+	(wire
+		(pts
 			(xy 127 96.52) (xy 127 93.98)
 		)
 		(stroke
@@ -4246,6 +4256,16 @@
 			(type default)
 		)
 		(uuid "5531998d-5e96-48cb-94be-2c3a0f698a72")
+	)
+	(wire
+		(pts
+			(xy 248.92 57.15) (xy 248.92 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5558d513-bd77-4946-baf7-9f8f272381e4")
 	)
 	(wire
 		(pts
@@ -4829,6 +4849,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 46.99) (xy 248.92 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ee2d049-6b51-409f-a21a-b5fad9beb628")
+	)
+	(wire
+		(pts
 			(xy 200.66 118.11) (xy 195.58 118.11)
 		)
 		(stroke
@@ -4886,16 +4916,6 @@
 			(type default)
 		)
 		(uuid "a59b71f0-88ed-4603-9a11-90f5433d013f")
-	)
-	(wire
-		(pts
-			(xy 248.92 43.18) (xy 248.92 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6609b63-0f83-490b-ab5a-439ffac89d2a")
 	)
 	(wire
 		(pts
@@ -7392,6 +7412,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 248.92 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7123a645-5e14-4f8c-a5ec-78e8d2c9576d")
+		(property "Reference" "#PWR0132"
+			(at 248.92 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 248.92 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 248.92 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2488acdd-243c-4fab-9bc1-485cbca7716d")
+		)
+		(instances
+			(project "controller_mainboard"
+				(path "/0fdfffec-3d24-4249-8ba9-dae7a6ccc250/104cadd7-dded-4cf0-b82f-f956a8bd9cde"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 153.67 55.88 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8264,6 +8351,85 @@
 			(project "controller_mainboard"
 				(path "/0fdfffec-3d24-4249-8ba9-dae7a6ccc250/104cadd7-dded-4cf0-b82f-f956a8bd9cde"
 					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 248.92 53.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c18fec1e-13f0-4b1b-afe9-2664f9c25670")
+		(property "Reference" "C92"
+			(at 252.73 52.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "50V 22pF C0G"
+			(at 252.73 54.6099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 247.9548 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8579707297419231232"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 248.92 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C1555"
+			(at 248.92 53.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a08d68be-975b-43e5-a184-032d019717f0")
+		)
+		(pin "1"
+			(uuid "a11d5f39-96d8-4f83-9ff5-c2f8412c34cf")
+		)
+		(instances
+			(project "controller_mainboard"
+				(path "/0fdfffec-3d24-4249-8ba9-dae7a6ccc250/104cadd7-dded-4cf0-b82f-f956a8bd9cde"
+					(reference "C92")
 					(unit 1)
 				)
 			)

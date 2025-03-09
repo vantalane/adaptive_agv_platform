@@ -1,4 +1,4 @@
-24820069569245302
+24825350922695999
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55525,6 +55525,27 @@ dual_pot_breakout_s
 6
 Custom_feetprint
 fontys logo 8x8
+
+
+0
+0
+0
+Custom_feetprint
+fontys_aap_QR_10x10
+
+
+0
+0
+0
+Custom_feetprint
+fontys_aap_QR_15x15
+
+
+0
+0
+0
+Custom_feetprint
+fontys_aap_QR_20x20
 
 
 0
