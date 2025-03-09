@@ -5137,6 +5137,17 @@
 		)
 		(uuid "0123c2df-2cfc-480b-8d6e-bedd12719867")
 	)
+	(text "JLCPCB SPECS:\nLayers: 4 \nStackup: LC0416H-7628\n(35um,15um,15um,35um)\nFinish: HASL leadfree."
+		(exclude_from_sim no)
+		(at 270.256 261.112 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "0a88f114-87e4-4b27-bd90-b79a79219616")
+	)
 	(text "Emergency stop\nconnector"
 		(exclude_from_sim no)
 		(at 71.882 33.274 0)
@@ -5380,6 +5391,12 @@
 		(uuid "37471594-8ed7-410a-82cf-66ec4bc0bee8")
 	)
 	(junction
+		(at 101.6 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3dd43671-be14-430a-8b75-bb1040a77eac")
+	)
+	(junction
 		(at 90.17 238.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5426,6 +5443,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e568f79-b6b2-4bac-9c7f-e21ee881588d")
+	)
+	(junction
+		(at 101.6 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f2ea88e-05e2-46a9-82bf-3aafdb4d5d1a")
 	)
 	(junction
 		(at 271.78 168.91)
@@ -6075,7 +6098,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 217.17) (xy 95.25 217.17)
+			(xy 77.47 217.17) (xy 91.44 217.17)
 		)
 		(stroke
 			(width 0)
@@ -6305,13 +6328,13 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 214.63) (xy 113.03 214.63)
+			(xy 101.6 214.63) (xy 113.03 214.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "44cdb383-1860-40c9-aa7f-a82e68a08df6")
+		(uuid "4384932a-8370-43e0-ad34-1d614d16d27c")
 	)
 	(wire
 		(pts
@@ -7595,6 +7618,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 217.17) (xy 113.03 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2ae03f6-69e6-4d74-b686-fa28b67d7b03")
+	)
+	(wire
+		(pts
 			(xy 306.07 38.1) (xy 309.88 38.1)
 		)
 		(stroke
@@ -7632,6 +7665,16 @@
 			(type default)
 		)
 		(uuid "a3bd5c52-6ca2-4730-9ea8-ef0a13cfe054")
+	)
+	(wire
+		(pts
+			(xy 101.6 209.55) (xy 101.6 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3bd97ac-1f0a-4b1f-8e10-3525db23d415")
 	)
 	(wire
 		(pts
@@ -8145,16 +8188,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 217.17) (xy 113.03 217.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c21d2898-36d9-4b9c-8b0d-7285bfb1cca2")
-	)
-	(wire
-		(pts
 			(xy 229.87 214.63) (xy 226.06 214.63)
 		)
 		(stroke
@@ -8182,6 +8215,16 @@
 			(type default)
 		)
 		(uuid "c45df5d0-f9ef-4960-a9e8-b588ef9bc666")
+	)
+	(wire
+		(pts
+			(xy 99.06 214.63) (xy 101.6 214.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c46ce2ba-8940-4179-948a-9c1361bcb9c1")
 	)
 	(wire
 		(pts
@@ -8525,6 +8568,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 217.17) (xy 101.6 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcbbb51f-8efb-43df-9338-a2a3a9c2212e")
+	)
+	(wire
+		(pts
 			(xy 203.2 44.45) (xy 207.01 44.45)
 		)
 		(stroke
@@ -8675,7 +8728,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 214.63) (xy 95.25 214.63)
+			(xy 74.93 214.63) (xy 91.44 214.63)
 		)
 		(stroke
 			(width 0)
@@ -8952,6 +9005,16 @@
 			(type default)
 		)
 		(uuid "fd5056eb-a6e7-4660-ab48-bfa090dc0a60")
+	)
+	(wire
+		(pts
+			(xy 101.6 223.52) (xy 101.6 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd8ec889-5612-41c5-b796-5cddbbdb43cf")
 	)
 	(wire
 		(pts
@@ -10943,6 +11006,133 @@
 		)
 		(uuid "ffda3bc6-d2e0-4a0b-bcec-d96be86e8623")
 	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 101.6 209.55 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3d7a304c-9c8d-42c3-8f4a-b832f190c48b")
+		(property "Netclass" "USB_differential"
+			(at 100.9015 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at 236.22 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 69.85 217.17 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "56b8d737-c84b-4339-82ba-5be4d5e8b357")
+		(property "Netclass" "USB_differential"
+			(at 70.5485 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -64.77 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 101.6 223.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b68aff93-e33b-495f-b943-15b39b081ed7")
+		(property "Netclass" "USB_differential"
+			(at 100.9015 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Component Class" ""
+			(at -33.02 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 69.85 214.63 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c74ffc77-87c4-43c0-91ed-5acff262647b")
+		(property "Netclass" "USB_differential"
+			(at 70.5485 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -64.77 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "Device:R")
 		(at 121.92 161.29 180)
@@ -12392,7 +12582,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 99.06 214.63 270)
+		(at 95.25 214.63 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12401,7 +12591,7 @@
 		(dnp no)
 		(uuid "622a3152-a412-4863-b49d-c1ea2cfd4b3d")
 		(property "Reference" "R7"
-			(at 97.536 209.042 90)
+			(at 93.726 209.042 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12409,7 +12599,7 @@
 			)
 		)
 		(property "Value" "22R 100mW"
-			(at 97.536 211.582 90)
+			(at 93.726 211.582 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12417,7 +12607,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 99.06 216.408 90)
+			(at 95.25 216.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12426,7 +12616,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 214.63 0)
+			(at 95.25 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12435,7 +12625,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 99.06 214.63 0)
+			(at 95.25 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12444,7 +12634,7 @@
 			)
 		)
 		(property "JLCPCB" "C23345"
-			(at 99.06 214.63 0)
+			(at 95.25 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13204,7 +13394,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 99.06 217.17 270)
+		(at 95.25 217.17 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13212,7 +13402,7 @@
 		(dnp no)
 		(uuid "8173d568-39fb-4bf4-a1e8-8d05e9818bb6")
 		(property "Reference" "R8"
-			(at 98.806 219.456 90)
+			(at 94.996 219.456 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13220,7 +13410,7 @@
 			)
 		)
 		(property "Value" "22R 100mW"
-			(at 98.806 221.996 90)
+			(at 94.996 221.996 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13228,7 +13418,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 99.06 215.392 90)
+			(at 95.25 215.392 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13237,7 +13427,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 99.06 217.17 0)
+			(at 95.25 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13246,7 +13436,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 99.06 217.17 0)
+			(at 95.25 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13255,7 +13445,7 @@
 			)
 		)
 		(property "JLCPCB" "C23345"
-			(at 99.06 217.17 0)
+			(at 95.25 217.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
