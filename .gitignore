@@ -1,5 +1,5 @@
 *.lck
 /design_sources/KiCAD/controller_mainboard/controller_mainboard-backups/*
 *-bak
-
+/documentation/*.bkp
 
