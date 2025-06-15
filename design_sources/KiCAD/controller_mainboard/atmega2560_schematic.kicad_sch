@@ -6784,6 +6784,14 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB" "C22935"
+			(at 133.35 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "81af7615-33a3-4dbf-aeb9-5f9dfb364f9a")
 		)
@@ -7678,6 +7686,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLCPCB" "C22460"
+			(at 175.26 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "7"

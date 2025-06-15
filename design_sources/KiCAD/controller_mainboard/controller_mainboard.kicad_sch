@@ -5425,7 +5425,7 @@
 		)
 		(uuid "c1f28e3c-c2ce-4e6c-af8f-360d0107b431")
 	)
-	(text "TODO: \n\nDoes rasbpi want to PWM control? If so, parallel connect pins\nDoes raspi want ENC data? If so, change ENC supply to 3v3\nDoes raspbi want to be able to read analog currents? Add ADC perpheral\n\nProposed easy solution:\nWrite ardu mega code to report data through serial, and accept commands through serial.\n(Good HW abstraction practice)"
+	(text "TODO: \n\n\nProposed solution:\nWrite ardu mega code to report data through serial, and accept commands through serial.\n(Good HW abstraction practice)"
 		(exclude_from_sim no)
 		(at 347.98 202.184 0)
 		(effects
@@ -5456,16 +5456,6 @@
 			(justify left)
 		)
 		(uuid "d76f6323-a0da-4781-b68b-4f780979d1ee")
-	)
-	(text "TODO\nconnect these"
-		(exclude_from_sim no)
-		(at 154.178 185.166 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dcfa6900-00cd-4519-8602-2b2d7e6047c9")
 	)
 	(text "PERFECT!!!\n\nUSBLC6-4SC6-ES  C5180279\n\nSEUC10F5V4U C5126804\n\nIP4220CZ6-ES C5199235\n\n\n\n"
 		(exclude_from_sim no)
@@ -5660,10 +5650,6 @@
 	(no_connect
 		(at 52.07 226.06)
 		(uuid "7beb4beb-c3db-4fc0-ba84-20572375bf30")
-	)
-	(no_connect
-		(at 170.18 180.34)
-		(uuid "9a905bf6-77a6-485c-961c-8429f7bba403")
 	)
 	(no_connect
 		(at 270.51 154.94)
@@ -5959,7 +5945,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 219.71) (xy 226.06 219.71)
+			(xy 226.06 219.71) (xy 234.95 219.71)
 		)
 		(stroke
 			(width 0)
@@ -10988,12 +10974,12 @@
 		(uuid "eb52e727-2aab-4d45-946c-7929b5202621")
 	)
 	(label "MOT_DRV_DISABLE"
-		(at 170.18 180.34 180)
+		(at 234.95 219.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "ecd13e68-b6b0-44db-8569-360ef3d19cec")
 	)
