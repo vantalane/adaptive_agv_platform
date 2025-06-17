@@ -622,8 +622,8 @@
         },
         {
           "group_by": false,
-          "label": "JLCPCB",
-          "name": "JLCPCB",
+          "label": "LCSC",
+          "name": "LCSC",
           "show": true
         },
         {
@@ -704,7 +704,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "JLCPCB"
+      "sort_field": "LCSC"
     },
     "connection_grid_size": 50.0,
     "drawing": {
