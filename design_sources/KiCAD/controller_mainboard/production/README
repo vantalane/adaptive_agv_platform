@@ -1,0 +1,88 @@
+Order instructions for FONTYS.
+
+PCB is designed with part availability of LCSC and Tinytronics.
+The PCB will be assembled by using JLC PCBA service, the order procedure is similar to ordering only PCB's, but with some additions to it.
+
+Steps
+
+1- 
+Load the controller_mainboard.zip on the jlcpcb order page.
+
+2- 
+From top to bottom, select the following settings:
+base material: FR4
+layers: 4
+Dimensions are automatically filled (200x100mm)
+QTY: 5 (This version 0.1 is deemed a prototype, therefore should always be validated before larger orders (a.k.a buy V1 largescale))
+product type: industrial/consumer
+
+different design: 1
+Delivery format: single pcb
+thickness: 1.6mm
+color: (up to you, green is cheapest and fastest, but purple fits Fontys theme)
+Silk: white
+Materiel type: FR4-std TG 135-140
+Surface finish: LeadFree HASL
+
+Outer copper weight: 1oz
+inner copper weight: 0.5oz
+Layer sequence: yes
+	L1 - controller_mainboard-F_Cu.gtl
+	L2 - controller_mainboard-In1_Cu.g1
+	L3 - controller_mainboard-In2_Cu.g2
+	L4 - controller_mainboard-B_Cu.gbl
+Specify stackup: yes - JLC04161H-7628
+Via covering: plugged
+Min via diameter: 0.3mm/(0.4/0.45mm)
+Outline tolerance: regular
+Confirm prod file: No
+Mark on PCB: Order Number (Specify position)
+Gold Fingers: no
+Castellated hole:no
+pressfit hole: no
+edge plating: no
+Blind slots: no
+
+3- 
+Select "PCB Assembly" by using the button.
+
+Fill in the following settings for PCB assembly:
+
+PCBA type: Eco
+Assembly side: Top
+PCBA QTY: 2
+Tooling holes: JLCPCB
+Confirm part placement: Yes
+Stencil storage: no 
+Fixture Storage: no
+Parts Selection: customer
+
+*Dont fill in advanced options*
+
+
+4- 
+Proceed by clicking on the "NEXT" button, (ignore stencil)
+
+5-
+Now you should get a render of the PCB, proceed by clicking next
+
+6-
+Add bom file: bom.csv
+Add CPL file: positions.csv
+
+7- 
+Tick all the boxes on the right to confirm assembly of these parts
+
+Except FOR the following:
+*XT-60 AMASS CONNECTOR J2,J25
+*
+
+METE FIX!!
+C5263892 - WRONG FOOTPRINT ON JLCNUMBER - JLC HAS THT, PCB HAS SMD
+TPS5430DDA - MISMATCHING LCSC NUMBERS from SCH to LCSC
+C78275 Y1-Y2 mismatching LCSC numbers MISMATCHIN
+
+Diodes 40V5A have LCSC on sch, but not on exported files
+J3 has LCSC but not on extorts
+L4 has lcsc but not on export 
+l2's have lcsc but not on extort
