@@ -106,3 +106,7 @@ On the Quote & order
 Select product description as - Research\Education\DIY\Entertainment > Robot - HS Code 847990
 
 10- Pay
+
+
+
+11- After JLC, there are certain parts that will be manually assembled onto the PCB. These are described in the "controller_board_v0_1.ods" spreadsheet file. Here, parts per PCB are described, order multiples of this set according to how many PCB's are going to be assembled.
