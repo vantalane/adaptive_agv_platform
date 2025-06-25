@@ -1,9 +1,12 @@
+Summary of board capabilites.
+
+
 PCBA power:
 	Battery voltage range: 8.5V - 15V
 	Supply current abs max: 20A
 	Supply current typical max: 15.2A
 
-	Note: Power supplied by USB-C only powers the microcontrollers and certain current measurement IC's.
+	Note: Power supplied by USB-C only powers the microcontrollers and certain current measurement IC's. Avoid powering high power devices through USB. 
  
 Safety:
 	Emergency stop: A male XT-60 connector is used to pass-through power supplied by a battery. A normally-closed high current emergency stop button should be used to short the terminals of connector J25. If this isn't connected, the battery will be practically "disconnected".
@@ -11,44 +14,45 @@ Safety:
 
 Motor drivers:
 	Supply current: 5A absolute max, 3,8A typical max
-
+	Driver voltage: Same as the battery voltage supplying board.
 	
 Motor current measurement:
 	Measured until 5A max
 	Voltage per Amp ratio: 1 V/A
-	Vcurrent frequency cutoff: 795.77 Hz
+	Vcurrent low-pass frequency cutoff(-3db point): 795.77 Hz 
 
 Battery voltage measurement:
 	Voltage divider ratio: 0.3377
 		Example: Battery is 13.89 volts, Atmega ADC measures 13.89*0.3377=4.69V
 
+
+Pins described below are additional information or explicit override of the Arduino mega board pins.
+The AAP board allocates some GPIO for certain tasks.
+
 Allocated GPIO of Atmega2560:
-	D4
-	D6
-	D7
-	D8
-	D9
 
-ADC3 - Battery Voltage
-ADC4
-ADC5
-ADC6
-ADC7
+#Encoder pinouts
+D22	ENC_B4
+D23	ENC_A4
+D24	ENC_B3
+D25	ENC_A3
+D26	ENC_B2
+D27	ENC_A2
+D28	ENC_B1
+D29	ENC_B1
 
-D22
-D23
-D24
-D25
-D26
-D27
-D28
-D29
+#Motor driver PWM pinouts
+D2	MOT_DRV_PWM_B4
+D3	MOT_DRV_PWM_A4
+D4	MOT_DRV_PWM_B2
+D5	MOT_DRV_PWM_A2
+D6	MOT_DRV_PWM_A3
+D7	MOT_DRV_PWM_B3
+D8	MOT_DRV_PWM_A1
+D9	MOT_DRV_PWM_B1
 
-D30
-
-D0
-D1
-D5
-D2
-D3
-
+ADC3	VBAT_ADC
+ADC4	MOT_CURR_V_1
+ADC5	MOT_CURR_V_2
+ADC6	MOT_CURR_V_3
+ADC7	MOT_CURR_V_4
